@@ -1,0 +1,7 @@
+node_modules/
+.env
+.env.*
+!.env.example
+config/competitors.json
+*.log
+.DS_Store

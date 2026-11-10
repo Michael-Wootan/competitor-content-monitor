@@ -1,0 +1,5 @@
+[
+  { "name": "Competitor One", "sitemap": "https://www.competitor-one.example/sitemap.xml" },
+  { "name": "Competitor Two", "sitemap": "https://www.competitor-two.example/sitemap.xml" },
+  { "name": "Competitor Three", "sitemap": "https://www.competitor-three.example/sitemap_index.xml" }
+]

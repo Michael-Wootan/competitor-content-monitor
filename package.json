@@ -1,0 +1,17 @@
+{
+  "name": "competitor-content-monitor",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Reads competitor sitemaps weekly and emails what each one published or updated in the last seven days.",
+  "main": "src/competitor-content-monitor.js",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "monitor": "node src/competitor-content-monitor.js",
+    "dry-run": "node src/competitor-content-monitor.js --dry-run",
+    "test": "node scripts/test-sitemap.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "nodemailer": "^8.0.11"
+  }
+}
